@@ -22,7 +22,7 @@ window.onclick= function (event){
 }
 
 function loadVideo(keyword) {
-    var YOUTUBE_API="https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&maxResults=9&part=snippet&key=AIzaSyClsArH5rhCEFAD30ZezSnI4fl_9rpabCA";
+    var YOUTUBE_API="https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&maxResults=9&part=snippet&key=AIzaSyCLOeWS_tw--8E9S3MmWzvJcUukiyGX_4s";
     var xhr = new XMLHttpRequest();
     xhr.open("GET", YOUTUBE_API, true);
     xhr.onreadystatechange = function (){
